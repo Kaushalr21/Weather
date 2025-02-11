@@ -82,7 +82,7 @@ const Weather = () => {
           <p className='location'>{weatherData.location ?? "Loading..."}</p>
           <div className="weather-data">
             <div className="col">
-              <img src={humidity_icon} alt="Humidity Icon" />
+              <img src={humidity_icon} alt="Humidity icon" />
               <div>
                 <p>{weatherData.humidity ?? "--"}%</p>
                 <span>Humidity</span>
