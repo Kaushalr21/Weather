@@ -1,0 +1,92 @@
+.Weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    background: radial-gradient(circle at 100% 100%, #2200ff 0, #2200ff 5px, transparent 5px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #2200ff 0, #2200ff 5px, transparent 5px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #2200ff 0, #2200ff 5px, transparent 5px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #2200ff 0, #2200ff 5px, transparent 5px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#2200ff, #2200ff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
+    linear-gradient(#2200ff, #2200ff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
+    linear-gradient(209deg, #ffffff 0%, rgba(255,255,255,1) 28%, #0700ff 67%, #ffffff 100%);
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    border-radius: 40px;
+    background: white;
+    color: grey;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.weather-icon{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.temperature{
+    color: white;
+    font-size: 80px;
+}
+
+.location{
+    color: white;
+    font-size: 40px;
+}
+
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.weather-data .col{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    
+}
+
+.col img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: white;   
+}
+
+.weather p{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
