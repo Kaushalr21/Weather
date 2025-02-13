@@ -73,7 +73,6 @@ const Weather = () => {
             }
           }}
         />
-        <img src={search_icon} alt="Search" onClick={() => search(city)} />
       </div>
       {weatherData.location && (
         <>
