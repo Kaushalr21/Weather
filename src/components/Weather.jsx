@@ -60,7 +60,7 @@ const Weather = () => {
   }, []);
 
   return (
-    <div className='Weather'>
+    <div className='Weather container'>
       <div className="search-bar">
         <input
           type="text"

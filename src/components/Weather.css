@@ -1,6 +1,6 @@
 .Weather{
-    place-self: center;
-    padding: 40px;
+ 
+    padding: 30px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,7 @@
     linear-gradient(#2200ff, #2200ff) 50% 50%/calc(100% - 6px) calc(100% - 16px) no-repeat,
     linear-gradient(#2200ff, #2200ff) 50% 50%/calc(100% - 16px) calc(100% - 6px) no-repeat,
     linear-gradient(209deg, #ffffff 0%, rgba(255,255,255,1) 28%, #0700ff 67%, #ffffff 100%);
+
 }
 
 .search-bar{
@@ -27,7 +28,6 @@
 .search-bar input{
     height: 50px;
     border: none;
-    outline: none;
     padding-left: 25px;
     border-radius: 40px;
     background: white;
@@ -75,8 +75,10 @@
 .weather-data .col{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
     font-size: 12px;
+    font-size: 15px;
     
 }
 
@@ -86,7 +88,14 @@
     border-radius: 50%;
     background: white;   
 }
+.col p{
+    margin: 0;
+}
 
 .weather p{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+@media screen and (max-width:500px) {
+
 }
